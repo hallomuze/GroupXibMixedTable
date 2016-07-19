@@ -13,6 +13,16 @@
 		6D6182721D392A2E00435B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6182701D392A2E00435B29 /* Main.storyboard */; };
 		6D6182741D392A2E00435B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6182731D392A2E00435B29 /* Assets.xcassets */; };
 		6D6182771D392A2E00435B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6182751D392A2E00435B29 /* LaunchScreen.storyboard */; };
+		6D6182811D392AA900435B29 /* EVTableViewGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D61827F1D392AA900435B29 /* EVTableViewGroup.m */; };
+		6D6182821D392AA900435B29 /* EVTableViewGroup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6182801D392AA900435B29 /* EVTableViewGroup.xib */; };
+		6D6182861D3932A100435B29 /* EVCloverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6182841D3932A100435B29 /* EVCloverCell.m */; };
+		6D6182871D3932A100435B29 /* EVCloverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6182851D3932A100435B29 /* EVCloverCell.xib */; };
+		6D61828B1D3936D200435B29 /* CloverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6182891D3936D200435B29 /* CloverTableViewController.m */; };
+		6D61828C1D3936D200435B29 /* CloverTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D61828A1D3936D200435B29 /* CloverTableViewController.xib */; };
+		6D6182901D393C8200435B29 /* CloverGroupTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D61828E1D393C8200435B29 /* CloverGroupTVC.m */; };
+		6D6182911D393C8200435B29 /* CloverGroupTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D61828F1D393C8200435B29 /* CloverGroupTVC.xib */; };
+		6D61829A1D39430000435B29 /* FriendAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6182981D39430000435B29 /* FriendAddCell.m */; };
+		6D61829B1D39430000435B29 /* FriendAddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6182991D39430000435B29 /* FriendAddCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,21 @@
 		6D6182731D392A2E00435B29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D6182761D392A2E00435B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D6182781D392A2E00435B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D61827E1D392AA900435B29 /* EVTableViewGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVTableViewGroup.h; sourceTree = "<group>"; };
+		6D61827F1D392AA900435B29 /* EVTableViewGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVTableViewGroup.m; sourceTree = "<group>"; };
+		6D6182801D392AA900435B29 /* EVTableViewGroup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EVTableViewGroup.xib; sourceTree = "<group>"; };
+		6D6182831D3932A100435B29 /* EVCloverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVCloverCell.h; sourceTree = "<group>"; };
+		6D6182841D3932A100435B29 /* EVCloverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVCloverCell.m; sourceTree = "<group>"; };
+		6D6182851D3932A100435B29 /* EVCloverCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EVCloverCell.xib; sourceTree = "<group>"; };
+		6D6182881D3936D200435B29 /* CloverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloverTableViewController.h; sourceTree = "<group>"; };
+		6D6182891D3936D200435B29 /* CloverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloverTableViewController.m; sourceTree = "<group>"; };
+		6D61828A1D3936D200435B29 /* CloverTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloverTableViewController.xib; sourceTree = "<group>"; };
+		6D61828D1D393C8200435B29 /* CloverGroupTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloverGroupTVC.h; sourceTree = "<group>"; };
+		6D61828E1D393C8200435B29 /* CloverGroupTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloverGroupTVC.m; sourceTree = "<group>"; };
+		6D61828F1D393C8200435B29 /* CloverGroupTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloverGroupTVC.xib; sourceTree = "<group>"; };
+		6D6182971D39430000435B29 /* FriendAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendAddCell.h; sourceTree = "<group>"; };
+		6D6182981D39430000435B29 /* FriendAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendAddCell.m; sourceTree = "<group>"; };
+		6D6182991D39430000435B29 /* FriendAddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendAddCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +87,21 @@
 				6D61826B1D392A2E00435B29 /* AppDelegate.m */,
 				6D61826D1D392A2E00435B29 /* ViewController.h */,
 				6D61826E1D392A2E00435B29 /* ViewController.m */,
+				6D61827E1D392AA900435B29 /* EVTableViewGroup.h */,
+				6D61827F1D392AA900435B29 /* EVTableViewGroup.m */,
+				6D6182801D392AA900435B29 /* EVTableViewGroup.xib */,
+				6D6182831D3932A100435B29 /* EVCloverCell.h */,
+				6D6182841D3932A100435B29 /* EVCloverCell.m */,
+				6D6182851D3932A100435B29 /* EVCloverCell.xib */,
+				6D6182881D3936D200435B29 /* CloverTableViewController.h */,
+				6D6182891D3936D200435B29 /* CloverTableViewController.m */,
+				6D61828A1D3936D200435B29 /* CloverTableViewController.xib */,
+				6D61828D1D393C8200435B29 /* CloverGroupTVC.h */,
+				6D61828E1D393C8200435B29 /* CloverGroupTVC.m */,
+				6D61828F1D393C8200435B29 /* CloverGroupTVC.xib */,
+				6D6182971D39430000435B29 /* FriendAddCell.h */,
+				6D6182981D39430000435B29 /* FriendAddCell.m */,
+				6D6182991D39430000435B29 /* FriendAddCell.xib */,
 				6D6182701D392A2E00435B29 /* Main.storyboard */,
 				6D6182731D392A2E00435B29 /* Assets.xcassets */,
 				6D6182751D392A2E00435B29 /* LaunchScreen.storyboard */,
@@ -136,9 +176,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6182821D392AA900435B29 /* EVTableViewGroup.xib in Resources */,
 				6D6182771D392A2E00435B29 /* LaunchScreen.storyboard in Resources */,
+				6D61828C1D3936D200435B29 /* CloverTableViewController.xib in Resources */,
+				6D61829B1D39430000435B29 /* FriendAddCell.xib in Resources */,
 				6D6182741D392A2E00435B29 /* Assets.xcassets in Resources */,
+				6D6182871D3932A100435B29 /* EVCloverCell.xib in Resources */,
 				6D6182721D392A2E00435B29 /* Main.storyboard in Resources */,
+				6D6182911D393C8200435B29 /* CloverGroupTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6182811D392AA900435B29 /* EVTableViewGroup.m in Sources */,
 				6D61826F1D392A2E00435B29 /* ViewController.m in Sources */,
 				6D61826C1D392A2E00435B29 /* AppDelegate.m in Sources */,
+				6D61829A1D39430000435B29 /* FriendAddCell.m in Sources */,
+				6D6182901D393C8200435B29 /* CloverGroupTVC.m in Sources */,
 				6D6182691D392A2E00435B29 /* main.m in Sources */,
+				6D61828B1D3936D200435B29 /* CloverTableViewController.m in Sources */,
+				6D6182861D3932A100435B29 /* EVCloverCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = evvTableGroupObjc101/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.evvTableGroupObjc101";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = evvTableGroupObjc101/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.evvTableGroupObjc101";
 				PRODUCT_NAME = "$(TARGET_NAME)";
